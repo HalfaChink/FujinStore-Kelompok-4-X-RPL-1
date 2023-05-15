@@ -1,0 +1,27 @@
+h1 {
+  color:#1B6DF3; text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.isi {
+  border: 10px solid #9EC5FE;
+  border-radius: 10%; 
+  margin: 30px;
+  padding: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  word-spacing: 3px;
+  
+}
+
+h1 {
+  padding-top:6rem;
+}
