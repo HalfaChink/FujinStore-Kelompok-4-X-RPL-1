@@ -3,6 +3,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 45px;
+  padding-top:6rem;
 }
 
 .isi {
@@ -21,7 +22,4 @@ p {
   word-spacing: 3px;
   
 }
-
-h1 {
-  padding-top:6rem;
-}
+  
