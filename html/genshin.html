@@ -1,142 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Genshin Impact</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="../css/genshin.css" />
-    <link rel="icon" href="../img/Fujin.png" />
-  </head>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Genshin Impact Topup</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/genshin.css" />
+  <link rel="icon" href="../img/Fujin.png" />
+</head>
 <body>
-  
   <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="topup.html">Back</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Balik ke atas</a>
-            </li>
-            
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="topup.html">Back</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Balik ke atas</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- NAVBAR END -->
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
 
   <!-- Features -->
   <section id="features" class="features">
     <div class="container">
       <h1 class="header">Genshin Impact</h1>
-      <p class="desc">Untuk menemukan UID Anda, masuk pakai akun Anda. Klik pada tombol profile di pojok kiri atas layar. Temukan UID dibawah avatar. Masukan UID Anda di sini. Selain itu, Anda juga dapat temukan UID Anda di pojok bawah kanan layar.</p>
+      <p class="desc">Untuk menemukan UID Anda, masuk pakai akun Anda. Klik pada tombol profile di pojok kiri atas
+        layar. Temukan UID dibawah avatar. Masukan UID Anda di sini. Selain itu, Anda juga dapat temukan UID Anda di
+        pojok bawah kanan layar.</p>
+      <h1 id="saldo"></h1>
+            <h3 id="ket"></h3>
       <div class="card">
-        <h3>1. Masukan User ID</h3>
-    <input type="text" class="form-control" id="UID" placeholder="Masukan User ID">
-        <select class="form-select" aria-label="Default select example">
-  <option selected>Pilih Server</option>
-  <option value="1">America</option>
-  <option value="2">Asia</option>
-  <option value="3">Europe</option>
-  <option value="4">TW_HK_MO</option>
-</select>
-      </div>
-      <div class="card">
-        <h3>2. Pilih Kategori</h3>
-      <ul class="nav nav-tabs row d-flex">
-        <li class="nav-item col-6">
-          <a class="nav-link" data-bs-toggle="tab" href="#tab-1">
-            <img src="../img/genshin/Item_Genesis_Crystal.png" alt="genesis" width="50px">
-            <h4 class="d-none d-lg-block">Genesis Crystal</h4>
-          </a>
-        </li>
-        <li class="nav-item col-6">
-          <a class="nav-link " data-bs-toggle="tab" href="#tab-2">
-            <img src="../img/genshin/Item_Blessing_of_the_Welkin_Moon.png" alt="blessing" width="50px">
-            <h4 class="d-none d-lg-block">Blessing of The Welkin Moon</h4>
-          </a>
-        </li>
+        <h3>Pilih Kategori</h3>
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-6">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-1">
+              <img src="../img/genshin/Item_Genesis_Crystal.png" alt="genesis" width="50px">
+              <h4 class="d-none d-lg-block">Genesis Crystal</h4>
+            </a>
+          </li>
+          <li class="nav-item col-6">
+            <a class="nav-link " data-bs-toggle="tab" href="#tab-2">
+              <img src="../img/genshin/Item_Blessing_of_the_Welkin_Moon.png" alt="blessing" width="50px">
+              <h4 class="d-none d-lg-block">Blessing of The Welkin Moon</h4>
+            </a>
+          </li>
           <div class="tab-content">
             <div class="tab-pane" id="tab-1">
               <h3>Pilih Item</h3>
               <div class="row">
-                <div class="price col-md-3" onclick="price()" value="13329">              
-                    <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
-                    <h5>60 Crystals</h5>
-                    <p>IDR. 13,329</p>                                    
+                <div class="price col-md-3" onclick="price(60, 13.329)">
+                  <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
+                  <h5>60 Crystals</h5>
+                  <p>IDR. 13,329</p>
                 </div>
-                <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price(300, 67.732)">
                   <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
                   <h5>300+30 Crystals</h5>
-                  <p>IDR. 67,732</p> 
+                  <p>IDR. 67,732</p>
                 </div>
-                <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price(980, 203.740)">
                   <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
                   <h5>980+110 Crystals</h5>
-                  <p>IDR. 203,740</p> 
+                  <p>IDR. 203,740</p>
                 </div>
-                <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price(1980, 388.416)">
                   <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
                   <h5>1980+260 Crystals</h5>
-                  <p>IDR. 388,416</p> 
+                  <p>IDR. 388,416</p>
                 </div>
-                <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price(3280, 649.098)">
                   <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
-                  <h5>1980+260 Crystals</h5>
-                  <p>IDR. 388,416</p> 
+                  <h5>3280+600 Crystals</h5>
+                  <p>IDR. 649,098</p>
                 </div>
-                <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price(6480, 1300.803)">
                   <img src="../img/genshin/Item_Genesis_Crystal.png" class="image-tab">
-                  <h5>1980+260 Crystals</h5>
-                  <p>IDR. 388,416</p> 
+                  <h5>6480+1600 Crystals</h5>
+                  <p>IDR. 1,300,803</p>
                 </div>
               </div>
             </div>
             <div class="tab-pane" id="tab-2">
               <h3>Pilih Item</h3>
               <div class="row">
-                <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price('Blessing of The Welkin Moon', 67.732)">
                   <img src="../img/genshin/Item_Blessing_of_the_Welkin_Moon.png" class="image-tab">
-                  <p>Blessing of The Welkin Moon</p>  
+                  <p>Blessing of The Welkin Moon</p>
                   <p>IDR. 67,732</p>
                 </div>
-                 <div class="price col-md-3">
+                <div class="price col-md-3" onclick="price('Blessing of The Welkin Moon 5x', 338.661)">
                   <img src="../img/genshin/Item_Blessing_of_the_Welkin_Moon.png" class="image-tab">
-                  <p>Blessing of The Welkin Moon</p>  
+                  <p>Blessing of The Welkin Moon 5x</p>
                   <p>IDR. 338,661</p>
                 </div>
               </div>
             </div>
           </div>
-      </ul>
-      </div>
-       <div class="card">
-        <h3>3. Jumlah Pembelian</h3>
-        <input type="number" class="form-control" id="Jumlah" placeholder="Masukan jumlah">
-      </div>
-      <div class="card">
-        <h3>4. Nomor Whatsapp</h3>
-        <input type="text" class="form-control" id="nomor" placeholder="085.....">
-        <p>Bukti pembayaran atas pembelianmu akan kami kirimkan ke WhatsApp</p>
-      </div>
-      <div class="card">
-        <h3>5. Metode Pembayaran</h3>
-        <input type="text" id="hasil">
-        <p>E-Wallet</p>
-        <div class="col">
-          <img src="../img/payment/dana.png">
-          <p>DANA</p>
-        </div>
+        </ul>
       </div>
     </div>
   </section>
   <!-- Features END -->
-<script src="../topup.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="../topup.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
