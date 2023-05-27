@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Fire Topup</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/genshin.css" />
+  <link rel="icon" href="../img/Fujin.png" />
+</head>
+<body>
+<!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="topup.html">Back</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Balik ke atas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <h1 class="header">Free Fire</h1>
+      <p class="desc">Untuk menemukan UID Anda, masuk pakai akun Anda. Klik pada tombol profile di pojok kiri atas
+        layar. Temukan UID dibawah avatar. Masukan UID Anda di sini. Selain itu, Anda juga dapat temukan UID Anda di
+        pojok bawah kanan layar.</p>
+      <h1 id="saldo"></h1>
+      <h3 id="ket"></h3>
+      <div class="card">
+        <h3>pilih katagori</h3>
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-6">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-1">
+               <img src="../img/epep/Freefire_diamonds.png" alt="Free Fire" width="50px">
+              <h4 class="d-none d-lg-block">Diamonds</h4>
+            </a>
+          </li>
+          <div class="tab-content">
+            <div class="tab-pane" id="tab-1">
+              <h3>Pilih Item</h3>
+              <div class="row">
+                <div class="price col-md-3" onclick="price('diamonds',5, 1000)">
+                  <img scr="../img/epep/Freefire_diamonds.png" class="image-tab">
+                  <h4>5 diamonds</h4>
+                  <p>IDR. 1,000</p>
+                </div>
+                <div class="price col-md-3" onclick="price('12 Diamonds', 2000)">
+                  <img src="../img/epep/Freefire_diamonds.png" class="image-tab">
+                  <h4>12 Diamonds</h4>
+                  <p>IDR. 2,000</p>
+                </div>
+                <div class="price col-md-3" onclick="price('720 Diamonds', 100000)">
+                  <img src="../img/epep/Freefire_diamonds.png" class="image-tab">
+                  <h4>720 Diamonds</h4>
+                  <p>IDR. 100,000</p>
+                </div>
+                <div class="price col-md-3" onclick="price('2180 Diamonds', 300000)">
+                   <img src="../img/epep/Freefire_diamonds.png" class="image-tab">
+                  <h4>2180 Diamonds</h4>
+                  <p>IDR. 300,000</p>
+                </div>
+                <div class="price col-md-3" onclick="price('36400 Diamonds', 500000)">
+                   <img src="../img/epep/Freefire_diamonds.png" class="image-tab">
+                  <h4>720 Diamonds</h4>
+                  <p>IDR. 100,000</p>
+                </div>
+                <div class="price col-md-3" onclick="price('2180 Diamonds', 300000)">
+                   <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h4>720 Diamonds</h4>
+                  <p>IDR. 100,000</p>
+                </div>
+                <div class="price col-md-3" onclick="price('2180 Diamonds', 300000)">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+    <script src="../topup.js"></script>
+</body>
+</html>

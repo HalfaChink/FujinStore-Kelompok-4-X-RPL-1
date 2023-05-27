@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Legends Topup</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../css/mobile_legends.css" />
+  <link rel="icon" href="../img/Fujin.png" />
+<body>
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-ig navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="topup.html">back</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-colcount="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Balik ke atas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+  
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="container">
+      <h1 class="header">Mobile Legends</h1>
+      <p class="desc">Untuk menemukan UID Anda, masuk pakai akun Anda. Klik pada tombol profile di pojok kiri atas
+        layar. Temukan UID dibawah avatar. Masukan UID Anda di sini. Selain itu, Anda juga dapat temukan UID Anda di
+        pojok bawah kanan layar.</p>
+      <h1 id="saldo"></h1>
+            <h3 id="ket"></h3>
+      <div class="card">
+        <h3>Pilih Kategori</h3>
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-6">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-1">
+              <img src="../img/ml/50orless_MLBB_Diamonds.png" alt="diamond" width="50px">
+              <h4 class="d-none d-lg-block">diamond</h4>
+            </a>
+          </li>
+          <li class="nav-item col-6">
+            <a class="nav-link " data-bs-toggle="tab" href="#tab-2">
+              <img src="../img/ml/twilight.png" alt="twilight" width="50px">
+              <h4 class="d-none d-lg-block">Twilight Pass</h4>
+            </a>
+          </li>
+          <li class="nav-item col-6">
+            <a class="nav-link " data-bs-toggle="tab" href="#tab-3">
+              <img src="../img/ml/Weekly_Diamon_Pass-8287.png" alt="Weekly" width="100px">
+              <h4 class="d-none d-lg-block">Weekly Diamond Pass </h4>
+            </a>
+          </li>
+          <div class="tab-content">
+            <div class="tab-pane" id="tab-1">
+              <h3>Pilih Item</h3>
+              <div class="row">
+                <div class="price col-md-3" onclick="price('60 Diamond', 13329)">
+                  <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h5>60 Diamond</h5>
+                  <p>IDR. 13,329</p>
+                </div>
+                <div class="price col-md-3" onclick="price('300+30 Diamond', 67732)">
+                  <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h5>300+30 Diamond</h5>
+                  <p>IDR. 67,732</p>
+                </div>
+                <div class="price col-md-3" onclick="price('980+110 Diamond', 203740)">
+                  <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h5>980+110 Diamond</h5>
+                  <p>IDR. 203,740</p>
+                </div>
+                <div class="price col-md-3" onclick="price('1980+260 Diamond', 388416)">
+                  <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h5>1980+260 Diamond</h5>
+                  <p>IDR. 388,416</p>
+                </div>
+                <div class="price col-md-3" onclick="price('3280+600 Diamond', 649098)">
+                  <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h5>3280+600 Diamond</h5>
+                  <p>IDR. 649,098</p>
+                </div>
+                <div class="price col-md-3" onclick="price('6480+1600 Diamond', 1300803)">
+                  <img src="../img/ml/50orless_MLBB_Diamonds.png" class="image-tab">
+                  <h5>6480+1600 Diamond</h5>
+                  <p>IDR. 1,300,803</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-2">
+              <h3>Pilih Item</h3>
+              <div class="row">
+                <div class="price col-md-3" onclick="price('Twilight Pass', 143024)">
+                  <img src="../img/ml/twilight.png" class="image-tab">
+                  <h4>Twilight Pass</h4>
+                  <p>IDR. 143.024</p>
+                </div>
+              </div>
+            </div>
+             <div class="tab-pane" id="tab-3">
+              <h3>Pilih Item</h3>
+              <div class="row">
+                <div class="price col-md-3" onclick="price('Weekly Diamond Pass', 143024)">
+                  <img src="../img/ml/Weekly_Diamon_Pass-8287.png" class="image-tab-2">
+                 <h5>Weekly Diamond Pass</h5>
+                  <p>IDR. 143.024</p>
+                </div>
+                  <div class="price col-md-3" onclick="price('Weekly Diamond Pass', 143024)">
+                  <img src="../img/ml/Weekly_Diamon_Pass-8287.png" class="image-tab-2">
+                 <h5>Weekly Diamond Pass</h5>
+                  <p>IDR. 143.024</p>
+                </div>
+                  <div class="price col-md-3" onclick="price('Weekly Diamond Pass', 143024)">
+                  <img src="../img/ml/Weekly_Diamon_Pass-8287.png" class="image-tab-2">
+                 <h5>Weekly Diamond Pass</h5>
+                  <p>IDR. 143.024</p>
+                </div>  <div class="price col-md-3" onclick="price('Weekly Diamond Pass', 143024)">
+                  <img src="../img/ml/Weekly_Diamon_Pass-8287.png" class="image-tab-2">
+                 <h5>Weekly Diamond Pass</h5>
+                  <p>IDR. 143.024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Features END -->
+  <script src="../topup.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
